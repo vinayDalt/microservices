@@ -1,0 +1,13 @@
+/home/vinay/Desktop/microservices/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/repository/UserRepository.java
+/home/vinay/Desktop/microservices/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/service/UserServiceImpl.java
+/home/vinay/Desktop/microservices/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/exceptions/TrackNotFoundException.java
+/home/vinay/Desktop/microservices/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/seed/Seed1.java
+/home/vinay/Desktop/microservices/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/MuzixApplication.java
+/home/vinay/Desktop/microservices/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/service/UserService.java
+/home/vinay/Desktop/microservices/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/controller/UserController.java
+/home/vinay/Desktop/microservices/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/exceptions/UserAlreadyExistException.java
+/home/vinay/Desktop/microservices/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/config/SwaggerConfig.java
+/home/vinay/Desktop/microservices/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/domain/User.java
+/home/vinay/Desktop/microservices/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/exceptions/GloballyExceptionHandler.java
+/home/vinay/Desktop/microservices/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/seed/Seed2.java
+/home/vinay/Desktop/microservices/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/exceptions/UpdateException.java

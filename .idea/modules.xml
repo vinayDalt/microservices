@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CloudConfig-server/CloudConfig.iml" filepath="$PROJECT_DIR$/CloudConfig-server/CloudConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservices.iml" filepath="$PROJECT_DIR$/.idea/microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-eureka-server/spring-eureka-server.iml" filepath="$PROJECT_DIR$/spring-eureka-server/spring-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MuzixAppMongoDb_track/track.iml" filepath="$PROJECT_DIR$/MuzixAppMongoDb_track/track.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Muzix Application_user/user.iml" filepath="$PROJECT_DIR$/Muzix Application_user/user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuulservice/zuulservice.iml" filepath="$PROJECT_DIR$/zuulservice/zuulservice.iml" />
+    </modules>
+  </component>
+</project>

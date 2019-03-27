@@ -1,0 +1,20 @@
+eureka:
+    client:
+        fetch-registry: true
+        register-with-eureka: true
+        service-url:
+            defaultZone: http:172.23.239.87:8761/eureka/
+management:
+    security:
+        enabled: false
+server:
+    port: 8066
+spring:
+    application:
+        name: CloudConfig-server
+    cloud:
+        config:
+            server:
+                git:
+                    force-pull: true
+                    uri: https://github.com/vingu121/config-server-repo

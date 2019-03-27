@@ -1,0 +1,26 @@
+#eureka:
+#    client:
+#        fetch-registry: true
+#        register-with-eureka: true
+#        serviceUrl:
+#            defaultZone: http://172.23.239.87:8761/eureka/
+song:
+
+    - trackId: 56
+      trackName: 'Kigfgll4'
+      comment: 'Mari fgtgMans'
+    - trackId: 212
+      trackName: "Goodff As H"
+      comment: "Lfgti"
+#spring:
+#    data:
+#        mongodb:
+#            uri: mongodb://localhost:27017/dbmongo
+spring:
+    application:
+        name: user
+
+
+
+server:
+  port: 8099

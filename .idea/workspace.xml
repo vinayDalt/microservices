@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a57ab0a2-1b7c-4220-9d7d-ab4eabffca01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudConfig-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudConfig-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Muzix Application_user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-eureka-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuulservice/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_flapdoodle_embed_de_flapdoodle_embed_mongo_2_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_flapdoodle_embed_de_flapdoodle_embed_process_2_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_31_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_31_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_31_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_31_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_31_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_31_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_31_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_31_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_1_3_201810200350_r.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_5_1_3_201810200350_r.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j_1_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_1_0_RC3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_1_0_RC3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_1_0_RC3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_1_0_RC3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_1_0_RC3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/microservices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/microservices.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloudConfig-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CloudConfig-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloudConfig-server/src/main/java/com/example/CloudConfig/CloudConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/CloudConfig-server/src/main/java/com/example/CloudConfig/CloudConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CloudConfig-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/MuzixApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/MuzixApplicationUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/exceptions/GloballyExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/exceptions/GloballyExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/seed/Seed1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/seed/Seed1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/seed/Seed2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/seed/Seed2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/src/test/java/com/stackroute/MuzixApplication/MuzixApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/src/test/java/com/stackroute/MuzixApplication/MuzixApplicationUserTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/target/classes/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/classes/com/stackroute/MuzixApplication/MuzixApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/classes/com/stackroute/MuzixApplication/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/target/classes/com/stackroute/MuzixApplication/config/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/classes/com/stackroute/MuzixApplication/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/target/classes/com/stackroute/MuzixApplication/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/classes/com/stackroute/MuzixApplication/exceptions/GloballyExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/target/classes/com/stackroute/MuzixApplication/exceptions/GloballyExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/classes/com/stackroute/MuzixApplication/seed/Seed2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/target/classes/com/stackroute/MuzixApplication/seed/Seed2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/surefire-reports/TEST-com.stackroute.MuzixApplication.MuzixApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/target/surefire-reports/TEST-com.stackroute.MuzixApplication.MuzixApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/surefire-reports/com.stackroute.MuzixApplication.MuzixApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/target/surefire-reports/com.stackroute.MuzixApplication.MuzixApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/test-classes/com/stackroute/MuzixApplication/MuzixApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/user-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/target/user-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/target/user-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/target/user-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muzix Application_user/user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Muzix Application_user/user.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/MuzixApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/MuzixApplicationTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/bootstrap/SeeDataApplicationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/bootstrap/SeeDataApplicationListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/feedComponent/SeedDataApplicationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/feedComponent/SeedDataApplicationListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/service/TrackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/service/TrackServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/src/test/java/com/stackroute/Muzix/MuzixApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/src/test/java/com/stackroute/Muzix/MuzixApplicationTrackTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/classes/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/classes/com/stackroute/Muzix/MuzixApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/classes/com/stackroute/Muzix/bootstrap/SeeDataApplicationListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/classes/com/stackroute/Muzix/bootstrap/SeeDataApplicationListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/classes/com/stackroute/Muzix/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/classes/com/stackroute/Muzix/config/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/classes/com/stackroute/Muzix/service/TrackServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/classes/com/stackroute/Muzix/service/TrackServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/surefire-reports/TEST-com.stackroute.Muzix.MuzixApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/surefire-reports/com.stackroute.Muzix.MuzixApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/test-classes/com/stackroute/Muzix/MuzixApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/track-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/track-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/track-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/target/track-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuzixAppMongoDb_track/track.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MuzixAppMongoDb_track/track.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-eureka-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-eureka-server/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuulservice/src/main/resources/application.properties" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/CloudConfig-server/target/" />
+    <ignored path="$PROJECT_DIR$/MuzixAppMongoDb_track/target/" />
+    <ignored path="$PROJECT_DIR$/Muzix Application_user/target/" />
+    <ignored path="$PROJECT_DIR$/zuulservice/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/spring-eureka-server/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuulservice/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Muzix Application_user/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/repository/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/config/SwaggerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/config/SwaggerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/feedComponent/SeedDataApplicationListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/Controller/TrackController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/service/TrackServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/zuulservice/pom.xml" />
+        <option value="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/zuulservice/Dockerfile" />
+        <option value="$PROJECT_DIR$/Muzix Application_user/Dockerfile" />
+        <option value="$PROJECT_DIR$/MuzixAppMongoDb_track/Dockerfile" />
+        <option value="$PROJECT_DIR$/spring-eureka-server/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/Muzix Application_user/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/CloudConfig-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/CloudConfig-server/Dockerfile" />
+        <option value="$PROJECT_DIR$/spring-eureka-server/src/main/java/com/stackroute/springeurekaserver/SpringEurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/zuulservice/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Docker-compose.yml" />
+        <option value="$PROJECT_DIR$/spring-eureka-server/Dockerfile" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/CloudConfig-server/src/main/java/com/example/CloudConfig/CloudConfigApplication.java" />
+        <option value="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/spring-eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/CloudConfig-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/CloudConfig-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Muzix Application_user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Muzix Application_user/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/Muzix Application_user/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/MuzixAppMongoDb_track/pom.xml" />
+        <option value="$PROJECT_DIR$/Muzix Application_user/pom.xml" />
+        <option value="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/domain/User.java" />
+        <option value="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/exceptions/GloballyExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/seed/Seed2.java" />
+        <option value="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/bootstrap/SeeDataApplicationListener.java" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/service/TrackServiceImpl.java" />
+        <option value="$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/feedComponent/SeedDataApplicationListener.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="parentpom" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="parentpom" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zuulservice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zuulservice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="811" />
+    <option name="height" value="547" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="Muzix Application_user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="Muzix Application_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="Muzix Application_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="Muzix Application_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="Muzix Application_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MuzixApplication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="Muzix Application_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MuzixApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MuzixAppMongoDb_track" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MuzixAppMongoDb_track" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MuzixAppMongoDb_track" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MuzixAppMongoDb_track" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MuzixAppMongoDb_track" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Muzix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MuzixAppMongoDb_track" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Muzix" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MuzixAppMongoDb_track" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Muzix" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MuzixAppMongoDb_track" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Muzix" type="462c0819:PsiDirectoryNode" />
+              <item name="feedComponent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MuzixAppMongoDb_track" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Muzix" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="MuzixAppMongoDb_track" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Muzix" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548648855076" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CloudConfigApplication">
+    <configuration name="CloudConfigApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.CloudConfig.CloudConfigApplication" />
+      <module name="CloudConfig" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.CloudConfig.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringEurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.springeurekaserver.SpringEurekaServerApplication" />
+      <module name="spring-eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.springeurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CloudConfigApplication" />
+        <item itemvalue="Application.SpringEurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a57ab0a2-1b7c-4220-9d7d-ab4eabffca01" name="Default Changelist" comment="" />
+      <created>1548330258245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548330258245</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27572292" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.04021448" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.42761394" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24949563" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.20914593" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2669805" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5053619" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.486631" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.2414257" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/zuulservice/src/main/java/com/stackroute/zuulservice/filters/ErrorFilter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulservice/src/main/java/com/stackroute/zuulservice/filters/PostFilter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulservice/src/main/java/com/stackroute/zuulservice/filters/PreFilter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulservice/src/main/java/com/stackroute/zuulservice/filters/RouteFilter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulservice/src/main/java/com/stackroute/zuulservice/SpringBootZuulGatewayProxyApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-eureka-server/target/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/zuulservice/target/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/CloudConfig-server/target/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/spring-eureka-server/src/main/java/com/stackroute/springeurekaserver/SpringEurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CloudConfig-server/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-eureka-server/src/main/resources/bootstrap.yml" />
+    <entry file="file://$PROJECT_DIR$/spring-eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/resources/bootstrap.yml" />
+    <entry file="file://$PROJECT_DIR$/CloudConfig-server/src/main/java/com/example/CloudConfig/CloudConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CloudConfig-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CloudConfig-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-eureka-server/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Muzix Application_user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Muzix Application_user/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Muzix Application_user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4665">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/seed/Seed1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#3089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/exceptions/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/exceptions/GloballyExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/target/surefire-reports/TEST-com.stackroute.Muzix.MuzixApplicationTests.xml" />
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/target/surefire-reports/com.stackroute.Muzix.MuzixApplicationTests.txt" />
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/repository/TrackRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/test/java/com/stackroute/Muzix/MuzixApplicationTrackTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/MuzixApplicationTrack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/domain/Track.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="64" column="27" lean-forward="true" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/bootstrap/SeeDataApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/seed/Seed2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulservice/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Muzix Application_user/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Muzix Application_user/src/main/java/com/stackroute/MuzixApplication/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/Controller/TrackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/service/TrackServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MuzixAppMongoDb_track/src/main/java/com/stackroute/Muzix/feedComponent/SeedDataApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,38 @@
+eureka:
+    client:
+        fetch-registry: false
+        register-with-eureka: false
+fetchRegistry: false
+logging:
+    level:
+        com:
+            netflix:
+                discovery: 'OFF'
+                eureka: 'OFF'
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+server:
+    port: 8761
+    waitTimeInMsWhenSyncEmpty: 0
+spring:
+    application:
+        name: eureka-server
+​: ''
+
+
+
+
+
+eureka-service:
+    image: eurekaservice-app
+    build: eureka-service/
+    restart: always
+    network_mode: host
+    container_name: eureka-service-docker
+    ports:
+        - "8761:8761"
+    expose:
+        - 8761

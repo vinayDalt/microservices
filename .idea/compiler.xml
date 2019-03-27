@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CloudConfig" />
+        <module name="spring-eureka-server" />
+        <module name="track" />
+        <module name="user" />
+        <module name="zuulservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CloudConfig" target="1.8" />
+      <module name="microservices" target="11" />
+      <module name="spring-eureka-server" target="1.8" />
+      <module name="track" target="1.8" />
+      <module name="user" target="1.8" />
+      <module name="zuulservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CloudConfig" options="-parameters" />
+      <module name="spring-eureka-server" options="-parameters" />
+      <module name="track" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="zuulservice" options="-parameters" />
+    </option>
+  </component>
+</project>

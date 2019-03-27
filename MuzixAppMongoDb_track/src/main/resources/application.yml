@@ -1,0 +1,37 @@
+#eureka:
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      defaultZone: http://localhost:8184/eureka/
+
+
+server:
+  port: 8088
+song:
+
+  - trackId: 10
+    trackName: 'Kill4'
+    comment: 'Mari Mans'
+  - trackId: 21
+    trackName: "Good As H"
+    comment: "Li"
+#  - trackId: 38
+#  trackName: "Dream I"
+#  comment: "Han"
+#  -   trackId: 48
+#  trackName: "tains"
+#  comment: "Zimmer"
+#  -   trackId: 57
+#  trackName: "t"
+#  comment: 'Chauhan '
+#  -   trackId: 62
+#  trackName: "Setup"
+#  comment: "Kyd"
+
+spring:
+  application:
+    name: track
+#    cloud:
+#        config:
+#            uri: http://localhost:8183

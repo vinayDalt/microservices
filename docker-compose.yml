@@ -1,0 +1,67 @@
+version : "3"
+services:
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+    container_name: mongo
+    network_mode: host
+
+  eureka:
+    build: spring-eureka-server/
+    restart: always
+    network_mode: host
+    container_name: spring-eureka-service
+    ports:
+      - "8761:8761"
+    expose:
+      - 8761
+  config-server:
+    build: CloudConfig-server/
+    restart: always
+    network_mode: host
+    container_name: config-server-docker
+    ports:
+      - "8066:8066"
+    expose:
+      - 8066
+
+
+  track-service:
+
+    build: MuzixAppMongoDb_track/
+    restart: always
+    network_mode: host
+    hostname: localhost
+    container_name: track-service-docker
+    depends_on:
+      - config-server
+      - eureka
+      - mongo
+
+    ports:
+      - "8088:8088"
+    expose:
+      - 8088
+
+  user-service:
+    build: Muzix Application_user/
+    restart: always
+    network_mode: host
+    container_name: user-service-docker
+    depends_on:
+      - config-server
+      - eureka
+      - mongo
+    ports:
+        - "8099:8099"
+    expose:
+        - 8099
+
+  zuul-service:
+    build: zuulservice/
+    restart: always
+    network_mode: host
+    container_name: zuulsevice
+    ports:
+      - "9091:9091"
